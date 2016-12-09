@@ -22,7 +22,7 @@ planet3=sphere(pos=(3.0*r0,0,0),color=color.blue, radius=4e9)
 planet4=sphere(pos=(10*r0,0,0),color=color.blue, radius=4e9)
 planet5=sphere(pos=(5*r0,0,0),color=color.blue, radius=4e9)
 
-#initial velocity
+#initial vector velocities
 v1=vector(0,-v0,0)
 v2=vector(0,v0,0)
 v3=vector(0,1.5*v0,0)
@@ -38,8 +38,6 @@ trace5=curve(color=color.orange)
 
 t=0
 dt=5000
-
-
 
 while t<100000*24*3600:
     rate(100000000)
