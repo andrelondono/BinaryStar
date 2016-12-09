@@ -2,14 +2,9 @@ from __future__ import division
 from visual import *
 from visual.graph import *
 
-#Andre Londono
-#UC Berkeley
-#Binary star system for Physics 77
-
 scene = display(width = 800, height = 800)
 scene.autoscale =0
 scene.range=7e11
-
 
 #Create objects to be modeled/ define geometric attributes
 star1 = sphere(radius = 7e9,color = color.white, pos=vector(1.5e11,0,0) )
